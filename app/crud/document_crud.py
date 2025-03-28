@@ -17,7 +17,7 @@ from .base import engine
 
 
 class DocumentCrud:
-    __BASE_PATH = "/home/ly/Project"
+    __BASE_PATH = "./Project"
     __FILE_PATH = "/fileStorage"
 
     async def __save_file(self, file: UploadFile = File()):

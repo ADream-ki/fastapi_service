@@ -13,7 +13,7 @@ import readline
 """
 
 # 向量数据库目录
-VECTOR_DIR = "/home/ly/Project/vector_store"
+VECTOR_DIR = "./Project/vector_store"
 # 模型名称
 MODEL_NAME = "deepseek-r1:7b"
 

@@ -14,16 +14,16 @@ from FlagEmbedding import FlagModel
 API_KEY = "xxxx-xxxx-xxxx-xxxx"
 """LLM模型 API Key"""
 
-LOAD_PATH = "/home/ly/Project/fileStorage"
+LOAD_PATH = "./Project/fileStorage"
 """指定加载文档的目录"""
 
-VECTOR_DIR = "/home/ly/Project/vector_store"
+VECTOR_DIR = "./Project/vector_store"
 """指定持久化向量数据库的存储路径"""
 
 MODEL_NAME = "deepseek-r1:7b"
 """指定大语言模型名称"""
 
-EMBEDDING_MODEL_PATH = "/home/ly/Project/Models/Embedding/bge-base-zh-v1.5"
+EMBEDDING_MODEL_PATH = "./Project/Models/Embedding/bge-base-zh-v1.5"
 """本地 embedding 模型路径"""
 
 OLLAMA_EMBEDDING_NAME = "nomic-embed-text"
